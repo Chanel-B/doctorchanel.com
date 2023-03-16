@@ -1,0 +1,179 @@
+body {
+    background-color: hsl(212, 100%, 49%, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.submit_button {
+    background-color: #1169ec;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 45%;
+    border-radius: 30px;
+}
+
+
+/* Set a style for all buttons */
+
+button:hover {
+    opacity: 0.9;
+    background-color: rgb(4, 80, 4);
+}
+
+.menu_container {
+    text-align: center;
+}
+
+.students_list,
+.registration_button,
+.login_button {
+    border-radius: 5px;
+}
+
+.students_list,
+.registration_button,
+.login_button {
+    background-color: #1169ec;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.back_to_home {
+    background-color: #1169ec;
+    font-size: 15px;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.menu_container {
+    border-radius: 20px;
+    background-color: rgba(42, 68, 107, 0.2);
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+/*START LOGIN IMPL*/
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0px 12px 0px;
+    position: relative;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(33, 33, 34, 0.9);
+    /* Black w/ opacity */
+    padding-top: 15%;
+    /*margin */
+    margin-top: -8%;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgba(187, 5, 5);
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+
+/*END LOGIN IMPL*/
